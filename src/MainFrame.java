@@ -55,6 +55,7 @@ public class MainFrame extends javax.swing.JFrame {
         jButtonBac = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(255, 192, 203));
         setResizable(false);
 
         jTextField.setEditable(false);
@@ -64,6 +65,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
+        jButton1.setBackground(new java.awt.Color(255, 192, 203));
         jButton1.setText("1");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -71,6 +73,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
+        jButton2.setBackground(new java.awt.Color(255, 192, 203));
         jButton2.setText("2");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -78,6 +81,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
+        jButton3.setBackground(new java.awt.Color(255, 192, 203));
         jButton3.setText("3");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -85,6 +89,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
+        jButtonAdd.setBackground(new java.awt.Color(255, 192, 203));
         jButtonAdd.setText("+");
         jButtonAdd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -92,6 +97,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
+        jButton5.setBackground(new java.awt.Color(255, 192, 203));
         jButton5.setText("5");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -99,6 +105,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
+        jButton4.setBackground(new java.awt.Color(255, 192, 203));
         jButton4.setText("4");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -106,6 +113,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
+        jButton6.setBackground(new java.awt.Color(255, 192, 203));
         jButton6.setText("6");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -113,6 +121,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
+        jButtonSub.setBackground(new java.awt.Color(255, 192, 203));
         jButtonSub.setText("-");
         jButtonSub.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -120,6 +129,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
+        jButtonDiv.setBackground(new java.awt.Color(255, 192, 203));
         jButtonDiv.setText("/");
         jButtonDiv.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -127,6 +137,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
+        jButton7.setBackground(new java.awt.Color(255, 192, 203));
         jButton7.setText("7");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -134,6 +145,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
+        jButton8.setBackground(new java.awt.Color(255, 192, 203));
         jButton8.setText("8");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -141,6 +153,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
+        jButton9.setBackground(new java.awt.Color(255, 192, 203));
         jButton9.setText("9");
         jButton9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -148,6 +161,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
+        jButtonMul.setBackground(new java.awt.Color(255, 192, 203));
         jButtonMul.setText("*");
         jButtonMul.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -155,6 +169,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
+        jButton0.setBackground(new java.awt.Color(255, 192, 203));
         jButton0.setText("0");
         jButton0.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -162,6 +177,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
+        jButtonDot.setBackground(new java.awt.Color(255, 192, 203));
         jButtonDot.setText(".");
         jButtonDot.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -169,6 +185,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
+        jButtonDel.setBackground(new java.awt.Color(255, 192, 203));
         jButtonDel.setText("C");
         jButtonDel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -176,6 +193,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
+        jButtonRes.setBackground(new java.awt.Color(255, 192, 203));
         jButtonRes.setText("=");
         jButtonRes.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -183,6 +201,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
+        jButtonBac.setBackground(new java.awt.Color(255, 192, 203));
         jButtonBac.setText("<--------");
         jButtonBac.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
